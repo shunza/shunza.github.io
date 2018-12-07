@@ -1,6 +1,6 @@
 ### 我的博客
 
-地址：[http://shunza.site](http://yansu.org)
+地址：[http://shunza.site](http://shunza.site)
 
 ### 安装说明
 
