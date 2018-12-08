@@ -12,7 +12,19 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   {{ content }}
 </article>
-
+<div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center">
+    <div>坚持原创博文分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>打赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="{{ site.alipay | prepend: site.baseurl }}" alt="tc9011 支付宝">
+          <p>支付宝</p>
+        </div>
+    </div>
+  </div>
+  <div>
 <div>
   <ul class="post-copyright">
       <li> <strong>本文作者：</strong> shunza </li>

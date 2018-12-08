@@ -19,6 +19,7 @@ github: shunza
 # avatar and Favicon
 avatar: /assets/img/avatar.jpg
 favicon: /assets/img/qrcode.jpg
+alipay: /assets/img/alipay.jpg
 
 # google analytics config
 ga:
