@@ -27,7 +27,7 @@ ga:
   url: shunza.site
 
 # Build settings
-permalink: /:year/:month/:day/:title.html
+permalink: /post/:title.html
 markdown: kramdown
 highlighter: rouge
 mathjax: disabled
