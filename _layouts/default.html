@@ -9,10 +9,10 @@ layout: compress
 
     <main id="main" class="open">
       {{ content }}
-      
+
       <div class="footer">
         <div class="container">
-            <div>坚持原创博文分享，您的支持将鼓励我继续创作！</div>
+            <div style="padding: 10px 0; margin: 20px auto; width: 90%;"> <strong>坚持原创博文分享，您的支持将鼓励我继续创作！</strong></div>
             <button 
         style="cursor: pointer; border: 0; outline: 0; border-radius: 5px; padding: 0; margin: 0; letter-spacing: normal; text-transform: none; text-indent: 0; text-shadow: none" 
         id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
@@ -24,7 +24,7 @@ layout: compress
               <p>支付宝</p>
             </div>
         </div>
-            <ul class="post-copyright">
+            <ul>
                 <li> <strong>本文作者：</strong> shunza </li>
                 <li> <strong>本文标题：</strong> {{ page.title }} </li>
                 <li> <strong>本文链接：</strong> <a href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">{{ page.url | prepend: site.baseurl | prepend: site.url }}</a></li>
